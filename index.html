@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <meta name="keywords"
+        content="Виртуальная реальность, Моноподы для селфи, Экшн-камеры, Фитнес-браслеты, Умные часы, Квадрокоптеры">
+    <meta name="description" content="Огромный выбор гаджетов, доставка в отдаленные точки России">
     <title>HTML Academy: Девайс</title>
-  </head>
-  <body>
+    <link href="адрес_файла_стилей.css" rel="stylesheet">
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<body>
+    <header>
+        <a href="#"><img src="device.png" alt="Device"></a>
+        <ul>
+            <li><a href="#">Войти</a></li>
+            <li><a href="#">Сравнить</a></li>
+            <li><a href="#">Корзина</a></li>
+        </ul>
+        <form>
+            <input type="search" value="Поиск по сайту">
+        </form>
+        <ul class="navigation-header">
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <nav>
+            <a href="#">Каталог товаров</a>
+            <ul>
+                <li><a href="#">Виртуальная реальность</a></li>
+                <li><a href="catalog.html">Моноподы для селфи</a></li>
+                <li><a href="#">Экшн-камеры</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Фитнес-браслеты</a></li>
+                <li><a href="#">Умные часы</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Квадрокоптеры</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <section class="product-slider"> -->
+            <!-- название для секции для семантики -->
+            <!-- <h1>Device - огромный выбор гаджетов</h1> -->
+            <!-- <article class="product-slider-list">
+                <img src="stick.png" alt="палка для селфи">
+                <h2>Делай селфи, как Бен Стиллер! </h2>
+                <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом
+                    всего 5 килограмм.</p>
+                <a href="#">Подробнее</a>
+                <dl>
+                    <dt>8,5 м</dt>
+                    <dd>Длина палки</dd>
+                    <dt>5 кг</dt>
+                    <dd>Вес палки</dd>
+                    <dt>Карбон</dt>
+                    <dd>Материал</dd>
+                </dl>
+            </article>
+            <article class="product-slider-list">
+                <img src="clock.png" alt="фитнес-браслет">
+                <h2>Худеем правильно!</h2>
+                <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+                <a href="#">Подробнее</a>
+                <dl>
+                    <dt>48 часов</dt>
+                    <dd>Без подзарядки</dd>
+                </dl>
+            </article>
+            <article class="product-slider-list">
+                <img src="copter.png" alt="квадрокоптер">
+                <h2>Порхает как бабочка, жалит как пчела!</h2>
+                <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
+                    камеру.</p>
+                <a href="#">Подробнее</a>
+                <dl>
+                    <dt>800 м</dt>
+                    <dd>Дальность полета</dd>
+                    <dt>50 м</dt>
+                    <dd>Радиус поражения</dd>
+                </dl>
+            </article> -->
+        <!-- </section>
+        <section class="device-types-list"> -->
+            <!-- название для секции для семантики -->
+            <!-- <h2>Товары</h2>
+            <ul>
+                <li><img src="virtual.png" alt="Виртуальная реальность"><a href="#">Виртуальная реальность</a></li>
+                <li><img src="tab.png" alt="Моноподы для селфи"><a href="#">Моноподы для селфи</a></li>
+                <li><img src="camera.png" alt="Экшн-камеры"><a href="#">Экшн-камеры</a></li>
+                <li><img src="fitnes.png" alt="Фитнес-браслеты"><a href="#">Фитнес-браслеты</a></li>
+                <li><img src="clock-device.png" alt="Умные часы"><a href="#">Умные часы</a></li>
+                <li><img src="kvadro.png" alt="Квадрокоптеры"><a href="#">Квадрокоптеры</a></li>
+            </ul>
+        </section>
+        <section class="service"> -->
+            <!-- название для секции для семантики -->
+            <!-- <h2>Услуги</h2>
+            <ul>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">Кредит</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Доставка</h3>
+                    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
+                        неплохо заработаем, поднимая его на ваш этаж.</p>
+                </li>
+                <li>
+                    <h3>Гарантия</h3>
+                    <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
+                        новый.
+                        Товар, не дом, конечно же.</p>
+                </li>
+                <li>
+                    <h3>Кредит</h3>
+                    <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
+                        условия кредита. Выгодные для нашего банка, разумеется.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="partner"> -->
+            <!-- название для секции для семантики -->
+            <!-- <h2>Партнеры</h2>
+            <img src="partner-dji.jpg" alt="dji">
+            <img src="partner-sp.jpg" alt="sp gadgets">
+            <img src="partner-gopro.jpg" alt="gopro">
+            <img src="partner-vive.jpg" alt="vive">
+        </section> -->
+        <section class="about">
+            <h3>О нас</h3>
+            <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
+                компаниями:</p>
+            <ul>
+                <li>Деловые Линии</li>
+                <li>Автотрейдинг</li>
+                <li>ЖелДорЭкспедиция</li>
+            </ul>
+            <button>Подробнее о нас</button>
+        </section>
+        <section class="contact">
+            <h3>Контакты</h3>
+            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки.
+                Всякое бывает.</p>
+            <a href="#"><img src="map.jpg" alt=""></a>
+            <button>Напишите нам</button>
+        </section>
+    </main>
+    <footer>
+        <a href="#"><img src="device.jpg" alt="Device"></a>
+        <ul>
+            <li><a href="#">Войти</a></li>
+            <li><a href="#">Сравнить</a></li>
+            <li><a href="#">Корзина</a></li>
+        </ul>
+        <address>г. Москва, ул. Строителей, 15</address>
+        <ul class="navigation-footer">
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
+    </footer>
+    <!-- modal -->
+    <!-- <section>
+        <form>
+            <label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></label>
+            <label>Ваш e-mail:<input type="email" placeholder="email@example.com"></label>
+            <label>Текст письма:<input type="text" placeholder="В свободной форме"></label>
+            <input type="submit" value="Отправить">
+        </form>
+    </section> -->
+</body>
 
-  </body>
+</html>
 </html>
