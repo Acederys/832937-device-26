@@ -22,12 +22,12 @@
       <li><a href="#">Корзина</a></li>
     </ul>
     <nav class="navigation-header">
-      <a href="#">Доставка</a>
-      <a href="#">Гарантия</a>
-      <a href="#">Контакты</a>
-    </nav>
-    <nav>
       <a href="#">Каталог товаров</a>
+      <ul>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
       <ul>
         <li><a href="#">Виртуальная реальность</a></li>
         <li><a href="catalog.html">Моноподы для селфи</a></li>
@@ -179,12 +179,13 @@
   <section>
     <!-- название для секции для семантики -->
     <h2 class="visually-hidden">Форма отправки обратной связи</h2>
-    <form>
+    <form method="POST" action="https://echo.htmlacademy.ru/">
       <label for="name">Ваше имя:</label>
-      <input type="text" placeholder="Имя Фамилия" name="имя и фамилия" id="name">
+      <input type="text" placeholder="Имя Фамилия" name="name" id="name">
       <label for="email">Ваш e-mail:</label><input type="email" placeholder="email@example.com" name="email" id="email">
-      <label for="letter">Текст письма:</label><input type="text" placeholder="В свободной форме" name="letter"
-        id="letter">
+      <label for="letter">Текст письма:</label>
+      <textarea placeholder="В свободной форме" name="letter" id="letter">
+      </textarea>
       <button type="submit">Отправить</button>
     </form>
     <button type="button" aria-label="Закрыть">X</button>
