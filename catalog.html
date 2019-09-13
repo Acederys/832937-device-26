@@ -14,7 +14,7 @@
   <header>
     <a href="index.html"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
     <form>
-      <input type="search" value="Поиск по сайту">
+      <input name="Поиск по сайту" type="search" value="Поиск по сайту">
     </form>
     <ul>
       <li><a href="#">Валентин Петухов</a></li>
@@ -53,24 +53,33 @@
       </nav>
     </section>
     <section class="filter">
-      <!-- название для секции для семантики -->
-      <form>
+      <form method="POST">
         <h3>Фильтр:</h3>
         <div>
           <p>Стоимость</p>
-          <button></button>
-          <button></button>
-        </div> 
-        <p>Цвет</p>
-        <label><input type="checkbox" name="color">Черный</label>
-        <label><input type="checkbox" name="color">Белый</label>
-        <label><input type="checkbox" name="color">Синий</label>
-        <label><input type="checkbox" name="color">Красный</label>
-        <label><input type="checkbox" name="color">Розовый</label>
-        <p>Bluetooth</p>
-        <label><input type="radio" name="Bluetooth" checked>Есть</label>
-        <label><input type="radio" name="Bluetooth">Нет</label>
-        <button type="submit">Показать</button>
+          <button</button> <button></button>
+        </div>
+        <fieldset>
+          <legend>Цвет</legend>
+          <input type="checkbox" name="color black" id="color-black">
+          <label for="color-black">Черный</label>
+          <input type="checkbox" name="color white" id="color-white">
+          <label for="color-white">Белый</label>
+          <input type="checkbox" name="color blue" id="color-blue">
+          <label for="color-blue">Синий</label>
+          <input type="checkbox" name="color red" id="color-red">
+          <label for="color-red">Красный</label>
+          <input type="checkbox" name="color pink" id="color-pink">
+          <label for="color-pink">Розовый</label>
+        </fieldset>
+        <fieldset>
+          <legend>Bluetooth</legend>
+          <input type="radio" name="Bluetooth on" id="Bluetooth-on" checked>
+          <label for="Bluetooth-on">Есть</label>
+          <input type="radio" name="Bluetooth off" id="Bluetooth-off">
+          <label for="Bluetooth-off">Нет</label>
+          <button type="submit">Показать</button>
+        </fieldset>
       </form>
       <section class="sorter">
         <h3>Сортировка:</h3>
@@ -82,7 +91,7 @@
       </section>
       <div class="product">
         <!-- название для секции для семантики -->
-        <h2>Каталог товаров</h2>
+        <h2 class="visually-hidden">Каталог товаров</h2>
         <article class="catalog-list">
           <img src="img/item-1.jpg" alt="Любительская селфи-палка" width="360" height="380">
           <div>
@@ -153,11 +162,12 @@
     </ul>
     <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
     <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
+      <li><a href="#" aria-label="device в facebook"></a></li>
+      <li><a href="#" aria-label="device в vkontakte"></a></li>
+      <li><a href="#" aria-label="device в twitter"></a></li>
     </ul>
-    <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" alt="htmlacademy" width="27" heigh="35"></a>
+    <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
+        alt="htmlacademy" width="27" heigh="35"></a>
   </footer>
 </body>
 
