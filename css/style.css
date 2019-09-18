@@ -116,10 +116,12 @@ legend {
     color: #cacaca;
 }
 
-.item-add:last-child {
+.item-add a:last-child {
     font-family: 'Gilroy', sans-serif;
     font-weight: 300;
-    color: #464646;
+    color: #979797;
+    font-size: 13px;
+    line-height: 36px;
 }
 
 .btn{
