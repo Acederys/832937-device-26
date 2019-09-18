@@ -7,23 +7,24 @@
     content="Виртуальная реальность, Моноподы для селфи, Экшн-камеры, Фитнес-браслеты, Умные часы, Квадрокоптеры">
   <meta name="description" content="Огромный выбор гаджетов, доставка в отдаленные точки России">
   <title>HTML Academy: Девайс</title>
-  <link href="адрес_файла_стилей.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <a><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
     <form>
       <input name="site-search" type="search" value="Поиск по сайту">
     </form>
-    <ul>
+    <ul class="action">
       <li><a href="login.html">Войти</a></li>
       <li><a href="#">Сравнить</a></li>
       <li><a href="#">Корзина</a></li>
     </ul>
-    <nav class="navigation-header">
-      <a href="#">Каталог товаров</a>
-      <ul>
+    <nav class="navigation navigation-header">
+      <a href="#" class="menu-caption">Каталог товаров</a>
+      <ul  class="service-nav">
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Гарантия</a></li>
         <li><a href="#">Контакты</a></li>
@@ -51,7 +52,7 @@
         <h2>Делай селфи, как Бен Стиллер! </h2>
         <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом
           всего 5 килограмм.</p>
-        <a href="#">Подробнее</a>
+        <a href="#" class="btn">Подробнее</a>
         <dl>
           <dt>8,5 м</dt>
           <dd>Длина палки</dd>
@@ -65,7 +66,7 @@
         <img src="img/slider-2.png" alt="фитнес-браслет" width="345" heigh="485">
         <h2>Худеем правильно!</h2>
         <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-        <a href="#">Подробнее</a>
+        <a href="#" class="btn">Подробнее</a>
         <dl>
           <dt>48 часов</dt>
           <dd>Без подзарядки</dd>
@@ -76,7 +77,7 @@
         <h2>Порхает как бабочка, жалит как пчела!</h2>
         <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
           камеру.</p>
-        <a href="#">Подробнее</a>
+        <a href="#" class="btn">Подробнее</a>
         <dl>
           <dt>800 м</dt>
           <dd>Дальность полета</dd>
@@ -101,9 +102,9 @@
       <!-- название для секции для семантики -->
       <h2 class="visually-hidden">Услуги</h2>
       <ul>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Кредит</a></li>
+        <li><a href="#" class="btn">Доставка</a></li>
+        <li><a href="#" class="btn">Гарантия</a></li>
+        <li><a href="#" class="btn">Кредит</a></li>
       </ul>
       <ul>
         <li>
@@ -137,12 +138,12 @@
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
       <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
         компаниями:</p>
-      <ul>
+      <ul class="company">
         <li>Деловые Линии</li>
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-      <a href="#">Подробнее о нас</a>
+      <a href="#" class="btn">Подробнее о нас</a>
     </section>
     <section class="contact">
       <h2>Контакты</h2>
@@ -150,18 +151,18 @@
         Всякое бывает.</p>
       <a href="#" aria-label="г. Москва, ул. Строителей, 15"><img src="img/map.png" alt="г. Москва, ул. Строителей, 15"
           width="560" height="222"></a>
-      <a href="#">Напишите нам</a>
+      <a href="#" class="btn">Напишите нам</a>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <a><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
-    <ul>
+    <ul class="action">
       <li><a href="#">Войти</a></li>
       <li><a href="#">Сравнить</a></li>
       <li><a href="#">Корзина</a></li>
     </ul>
     <address>г. Москва, ул. Строителей, 15</address>
-    <ul class="navigation-footer">
+    <ul class="navigation navigation-footer">
       <li><a href="#">Доставка</a></li>
       <li><a href="#">Гарантия</a></li>
       <li><a href="#">Контакты</a></li>
@@ -176,7 +177,7 @@
         alt="htmlacademy" width="27" heigh="35"></a>
   </footer>
   <!-- modal -->
-  <section>
+  <section class="modal">
     <!-- название для секции для семантики -->
     <h2 class="visually-hidden">Форма отправки обратной связи</h2>
     <form method="POST" action="https://echo.htmlacademy.ru/">
@@ -191,7 +192,7 @@
     <button type="button" aria-label="Закрыть">X</button>
   </section>
   <!-- modal -->
-  <section>
+  <section class="map-modal">
     <!-- название для секции для семантики -->
     <h2 class="visually-hidden">Карта проезда</h2>
     <img src="img/map-2.png" alt="г. Москва, ул. Строителей, 15" width="960" heigh="559">

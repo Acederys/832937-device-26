@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroyextrabold.ttf') format('truetype'),
+        url('../font/gilroyextrabold.woff') format('woff'),
+        url('../font/gilroyextrabold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroylight.ttf') format('truetype'),
+        url('../font/gilroylight.woff') format('woff'),
+        url('../font/gilroylight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Opensans';
+    src: url('../font/OpenSans-Light.ttf') format('truetype'), 
+        url('../font/opensanslight.woff') format('woff'),
+        url('../font/opensanslight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Opensans';
+    src: url('../font/OpenSans-Regular.ttf') format('truetype'), 
+        url('../font/opensans.woff') format('woff'),
+        url('../font/opensans.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Opensans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 47px;
+    color: #000000;
+}
+
+a { 
+    text-decoration: none
+}
+
+img { 
+    max-width: 100%;
+}
+
+ul:not(.company) {
+    list-style: none;
+}
+
+.company,
+.filter label {
+    line-height: 40px;
+}
+
+.action,
+.catalog-header nav {
+    line-height: 36px;
+}
+
+.header a:not(.exit),
+h3 > a,
+legend,
+.filter label {
+    color: #000000;
+}
+
+.exit {
+    color: #c4b376;
+}
+
+.menu-caption,
+.service-nav,
+.navigation-footer, 
+.btn,
+h3 > a,
+legend {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 18px;   
+}
+
+.filter label {
+    font-size: 14px;
+}
+
+.catalog-header a {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.item-add:last-child {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 300;
+    color: #464646;
+}
+
+.btn{
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.about p,
+.contact p {
+    color: #595959;
+    line-height: 30px;
+}
+
+.footer, 
+.footer a {
+    background-color: #464646;
+    color: #ffffff;
+}
+
+address {
+    line-height: 30px;
+}
+
+.modal,
+.map-modal {
+    display: none;
+}
