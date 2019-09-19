@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('../font/Gilroyextrabold.ttf') format('truetype'),
-        url('../font/gilroyextrabold.woff') format('woff'),
+    src: url('../font/gilroyextrabold.woff') format('woff'),
         url('../font/gilroyextrabold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
@@ -9,27 +8,24 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../font/Gilroylight.ttf') format('truetype'),
-        url('../font/gilroylight.woff') format('woff'),
+    src: url('../font/gilroylight.woff') format('woff'),
         url('../font/gilroylight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Opensans';
-    src: url('../font/OpenSans-Light.ttf') format('truetype'), 
-        url('../font/opensanslight.woff') format('woff'),
-        url('../font/opensanslight.woff2') format('woff2');
+    font-family: 'Open Sans';
+    src: url('../font/Open Sanslight.woff') format('woff'),
+        url('../font/Open Sanslight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Opensans';
-    src: url('../font/OpenSans-Regular.ttf') format('truetype'), 
-        url('../font/opensans.woff') format('woff'),
-        url('../font/opensans.woff2') format('woff2');
+    font-family: 'Open Sans';
+    src: url('../font/Open Sans.woff') format('woff'),
+        url('../font/Open Sans.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -38,8 +34,13 @@ html {
     box-sizing: border-box;
 }
 
+*, *::before, *::after { 
+    box-sizing: inherit;
+}
+
 body {
-    font-family: 'Opensans', sans-serif;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
@@ -55,8 +56,10 @@ body {
     overflow: hidden;
 }
 
-h1,
-h2 {
+.catalog-header h1,
+.product-slider-list h2,
+.about h2,
+.contact h2 {
     font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     font-size: 47px;
@@ -71,7 +74,11 @@ img {
     max-width: 100%;
 }
 
-ul:not(.company) {
+.action,
+.navigation li,
+.device-types-list li,
+.service li,
+.sorter li {
     list-style: none;
 }
 
@@ -85,23 +92,23 @@ ul:not(.company) {
     line-height: 36px;
 }
 
-.header a:not(.exit),
-h3 > a,
-legend,
+.header-link,
+.caption-item,
+.legend,
 .filter label {
     color: #000000;
 }
 
-.exit {
-    color: #c4b376;
+.header-link-exit {
+    color: rgba(0, 0, 0, 0.302);   
 }
 
 .menu-caption,
 .service-nav,
 .navigation-footer, 
 .btn,
-h3 > a,
-legend {
+.caption-item,
+.legend {
     font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     font-size: 18px;   
@@ -113,18 +120,18 @@ legend {
 
 .catalog-header a {
     font-size: 14px;
-    color: #cacaca;
+    color: rgba(0, 0, 0, 0.302);
 }
 
-.item-add a:last-child {
+.comparison {
     font-family: 'Gilroy', sans-serif;
     font-weight: 300;
-    color: #979797;
+    color: rgba(0, 0, 0, 0.502);
     font-size: 13px;
     line-height: 36px;
 }
 
-.btn{
+.btn {
     color: #000000;
     text-transform: uppercase;
 }
@@ -141,7 +148,7 @@ legend {
     color: #ffffff;
 }
 
-address {
+.address {
     line-height: 30px;
 }
 
