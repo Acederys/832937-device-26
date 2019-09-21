@@ -163,7 +163,8 @@ img {
 
 .catalog-header a {
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.302);
+    color: #000000;
+    opacity: 0.3;
 }
 
 .comparison {
@@ -192,12 +193,14 @@ img {
 }
 
 .page a {
-    color: rgba(0, 0, 0, 0.302);   
+    color: #000000;
+    opacity: 0.3; 
 }
 
 .sorter-type .active,
 .page .active,
-.page .back-and-forth {
+.page .back-and-forth,
+.action a {
     color: #000000;
 }
 
