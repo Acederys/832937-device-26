@@ -40,7 +40,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
@@ -60,22 +60,23 @@ body {
     line-height: 56px;
 }
 
-.product-slider-list p {
-    color: rgb(70, 70, 70);
+.product-slider-list p,
+.service-info p {
+    color: #464646;
 }
 
 .product-info dt {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-weight: 300;
     font-size: 36px;
     line-height: 48px;
-    color: rgb(0, 0, 0);
+    color: #464646;
 }
 
 .product-info dd {
     font-size: 13px;
     line-height: 20px;
-    color: rgb(70, 70, 70);
+    color: #464646;
 }
 
 .product-slider-list h2,
@@ -84,7 +85,7 @@ body {
 .service-info h3,
 .about h2,
 .contact h2 {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-weight: 800;
     font-size: 47px;
     color: #000000;
@@ -125,7 +126,8 @@ img {
 }
 
 .header-link-exit {
-    color: rgba(0, 0, 0, 0.302);   
+    opacity: 0.3;
+    color: #000000;   
 }
 
 .device-types-list a,
@@ -135,16 +137,16 @@ img {
 .navigation-footer, 
 .btn,
 .caption-item,
-.filter-prise p,
+.filter-price p,
 .legend {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-weight: 800;
     font-size: 18px;   
 }
 
 .device-types-list a {
     line-height: 24px;
-    color: rgb(70, 70, 70);
+    color: #464646;
 }
 
 .service-menu a:active {
@@ -153,10 +155,6 @@ img {
 
 .service-info h3 {
     line-height: 48px;
-}
-
-.service-info p {
-    color: #464646;
 }
 
 .filter label {
@@ -169,9 +167,10 @@ img {
 }
 
 .comparison {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.502);
+    color: #000000;
+    opacity: 0.5;
     font-size: 13px;
     line-height: 36px;
 }
@@ -184,11 +183,12 @@ img {
 }
 
 .sorter-type a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: rgba(0, 0, 0, 0.302);
+    color: #000000;
+    opacity: 0.3;
 }
 
 .page a {
@@ -210,13 +210,13 @@ img {
 filter h3,
 .sorter h3,
 .page a {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-weight: 800;
     font-size: 16px;
     line-height: 24px;
 }
 
-.filter-prise p {
+.filter-price p {
     color: #000000;
     line-height: 24px;
 }
