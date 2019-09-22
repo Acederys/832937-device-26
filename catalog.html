@@ -13,14 +13,14 @@
 
 <body>
   <header class="header">
-    <a href="index.html"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
-    <form>
-      <input name="site-search" type="search" placeholder="Поиск по сайту">
+    <a href="index.html" class="logo"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
+    <form class="header-search">
+      <input name=" site-search" type="search" placeholder="Поиск по сайту">
     </form>
-    <ul class="action">
+    <ul class="action header-action">
       <li><a href="#" class="header-link">Валентин Петухов</a></li>
       <li><a href="#" class="header-link header-link-exit">Выйти</a></li>
-      <li><a href="#" class="header-link">Сравнить</a></li>
+      <li class="compare"><a href="#" class="header-link">Сравнить</a></li>
       <li><a href="#" class="header-link"></a>Корзина</a></li>
     </ul>
     <nav class="navigation navigation-header">
@@ -30,21 +30,23 @@
         <li><a href="#">Гарантия</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a href="#">Виртуальная реальность</a></li>
-        <li><a href="catalog.html">Моноподы для селфи</a></li>
-        <li><a href="#">Экшн-камеры</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Фитнес-браслеты</a></li>
-        <li><a href="#">Умные часы</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Квадрокоптеры</a></li>
-      </ul>
+      <div class="big-menu">
+        <ul>
+          <li><a href="#">Виртуальная реальность</a></li>
+          <li><a href="catalog.html">Моноподы для селфи</a></li>
+          <li><a href="#">Экшн-камеры</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Фитнес-браслеты</a></li>
+          <li><a href="#">Умные часы</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Квадрокоптеры</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <section class="catalog-header">
       <h1>Моноподы для селфи</h1>
       <nav>
@@ -54,35 +56,29 @@
       </nav>
     </section>
     <section class="filter">
-      <form method="GET" action="https://echo.htmlacademy.ru/">
+      <form method="GET" action="https://echo.htmlacademy.ru/" class="filter-form">
         <h3>Фильтр:</h3>
         <div class="filter-price">
           <p>Стоимость</p>
-          <button type="button"></button> 
+          <button type="button"></button>
           <button type="button"></button>
         </div>
-        <fieldset>
+        <fieldset class="box-filter">
           <legend class="legend">Цвет</legend>
-          <input type="checkbox" name="color-black" id="color-black">
-          <label for="color-black">Черный</label>
-          <input type="checkbox" name="color-white" id="color-white">
-          <label for="color-white">Белый</label>
-          <input type="checkbox" name="color-blue" id="color-blue">
-          <label for="color-blue">Синий</label>
-          <input type="checkbox" name="color-red" id="color-red">
-          <label for="color-red">Красный</label>
-          <input type="checkbox" name="color-pink" id="color-pink">
-          <label for="color-pink">Розовый</label>
+          <label for="color-black"><input type="checkbox" name="color-black" id="color-black">Черный</label>
+          <label for="color-white"><input type="checkbox" name="color-white" id="color-white">Белый</label>
+          <label for="color-blue"><input type="checkbox" name="color-blue" id="color-blue">Синий</label>
+          <label for="color-red"><input type="checkbox" name="color-red" id="color-red">Красный</label>
+          <label for="color-pink"><input type="checkbox" name="color-pink" id="color-pink">Розовый</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="box-filter">
           <legend class="legend">Bluetooth</legend>
-          <input type="radio" name="bluetooth" id="bluetooth-on" checked>
-          <label for="bluetooth-on">Есть</label>
-          <input type="radio" name="bluetooth" id="bluetooth-off">
-          <label for="bluetooth-off">Нет</label>
+          <label for="bluetooth-on"><input type="radio" name="bluetooth" id="bluetooth-on" checked>Есть</label>
+          <label for="bluetooth-off"><input type="radio" name="bluetooth" id="bluetooth-off">Нет</label>
           <button type="submit" class="btn">Показать</button>
         </fieldset>
       </form>
+      <div class="product-group">
       <section class="sorter">
         <h3>Сортировка:</h3>
         <ul class="sorter-type">
@@ -150,30 +146,38 @@
         <a href="#">3</a>
         <a href="#" class="back-and-forth">Вперед</a>
       </footer>
+      </div>
     </section>
   </main>
   <footer class="footer">
-    <a href="index.html"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
-    <ul class="action"> 
-      <li><a href="#">Валентин Петухов</a></li>
-      <li><a href="#">Выйти</a></li>
-      <li><a href="#">Сравнить</a></li>
-      <li><a href="#">Корзина</a></li>
-    </ul>
-    <address class="address">г. Москва, ул. Строителей, 15</address>
-    <ul class="navigation navigation-footer">
-      <li><a href="#">Доставка</a></li>
-      <li><a href="#">Гарантия</a></li>
-      <li><a href="#">Контакты</a></li>
-    </ul>
-    <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-    <ul>
-      <li><a href="#" aria-label="device в facebook"></a></li>
-      <li><a href="#" aria-label="device в vkontakte"></a></li>
-      <li><a href="#" aria-label="device в twitter"></a></li>
-    </ul>
-    <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
-        alt="htmlacademy" width="27" heigh="35"></a>
+    <div class="footer-content">
+      <a href="index.html"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
+      <ul class="action footer-action">
+        <li><a href="#">Валентин Петухов</a></li>
+        <li><a href="#">Выйти</a></li>
+        <li><a href="#">Сравнить</a></li>
+        <li><a href="#">Корзина</a></li>
+      </ul>
+      <div class="footer-info">
+        <address class="address">г. Москва, ул. Строителей, 15</address>
+        <ul class="navigation navigation-footer">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+      </div>
+      <div class="footer-link">
+        <span class="footer-line"></span>
+        <ul class="footer-social">
+          <li><a href="#" aria-label="device в facebook"></a></li>
+          <li><a href="#" aria-label="device в vkontakte"></a></li>
+          <li><a href="#" aria-label="device в twitter"></a></li>
+        </ul>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
+            alt="htmlacademy" width="27" heigh="35"></a>
+      </div>
+    </div>
   </footer>
 </body>
 
