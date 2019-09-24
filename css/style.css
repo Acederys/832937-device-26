@@ -113,7 +113,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1160px;
+  width: 1200px;
   margin: 0 auto;
   padding-top: 21px;
   padding-left: 60px;
@@ -145,7 +145,7 @@ img {
 }
 
 .header-action .compare {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .navigation-header {
@@ -178,73 +178,78 @@ img {
   width: 200px;
 }
 
-.main {
-  width: 1160px;
+.product-slider,
+.device-types-list,
+.service-box,
+.partner,
+.main-info,
+.catalog-header,
+.filter-box {
+  width: 1200px;
   margin: 0 auto;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
 }
 
-.product-slider,
-.device-types-list,
 .service,
-.partner,
-.catalog-header,
 .filter {
   width: 100%;
 }
 
+.service {
+  background: linear-gradient( #ffffff 98px, #e5e5e5 99px,#e5e5e5);
+}
+
 .catalog-header {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .catalog-header h1 {
-    margin: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .catalog-header nav {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .filter {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .filter-form {
-    width: 330px;
-    padding-left: 60px;
+  width: 330px;
+  padding-left: 60px;
 }
 
 .box-filter {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .product-group {
-    width: 830px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  width: 830px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .product {
-    width: 830px;
-    padding-left: 70px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  width: 830px;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .catalog-list {
-    margin-bottom: 30px;
-    margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .about {
@@ -374,7 +379,7 @@ filter h3,
 }
 
 .footer-content {
-  width: 1160px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -384,9 +389,9 @@ filter h3,
 }
 
 .footer-info {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .footer-action {
@@ -397,33 +402,33 @@ filter h3,
 }
 
 .navigation-footer {
-    width: 440px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-action li:not(:first-child) {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 .footer-link {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-social {
-    display: flex;
-    width: 160px;
-    justify-content: center;
-    padding: 0;
+  display: flex;
+  width: 160px;
+  justify-content: center;
+  padding: 0;
 }
 
 .footer-social li {
-    margin-left: 10px;
-    margin-right: 10px;
-    list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
 }
 
 .footer,
