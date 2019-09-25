@@ -113,8 +113,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 21px;
   padding-left: 60px;
   padding-right: 60px;
@@ -171,11 +169,15 @@ img {
 
 .big-menu {
   display: flex;
-  justify-content: flex-start;
 }
 
 .big-menu ul {
   width: 200px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .product-slider,
@@ -185,9 +187,6 @@ img {
 .main-info,
 .catalog-header,
 .filter-box {
-  width: 1200px;
-  margin: 0 auto;
-  justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
 }
@@ -225,7 +224,6 @@ img {
 
 .box-filter {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   padding: 0;
 }
@@ -233,7 +231,6 @@ img {
 .product-group {
   width: 830px;
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -379,8 +376,6 @@ filter h3,
 }
 
 .footer-content {
-  width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
