@@ -15,12 +15,14 @@
   <header class="header container">
     <a class="logo"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
     <form class="header-search">
-      <input name="site-search" type="search" value="Поиск по сайту">
+      <span class="icon-search"></span>
+      <input class="header-search-input" name="site-search" type="search" value="Поиск по сайту">
+      <button class="btn-search" type="submit">Найти</button>
     </form>
-    <ul class="action header-action">
-      <li class="header-link-enter"><a href="login.html">Войти</a></li>
-      <li><a href="#">Сравнить</a></li>
-      <li><a href="#">Корзина</a></li>
+    <ul class="action header-action header-action-box">
+      <li class="header-link-enter header-link"><a href="login.html">Войти</a></li>
+      <li class="header-link-compare header-link "><a href="#">Сравнить</a></li>
+      <li class="header-link-basket header-link"><a href="#">Корзина</a></li>
     </ul>
     <nav class="navigation navigation-header">
       <a href="#" class="menu-caption">Каталог товаров</a>
@@ -141,14 +143,14 @@
       <section class="about">
         <h2>О нас</h2>
         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
+        <p class="about-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
           компаниями:</p>
         <ul class="company">
-          <li>Деловые Линии</li>
-          <li>Автотрейдинг</li>
-          <li>ЖелДорЭкспедиция</li>
+          <li class="company-list">Деловые Линии</li>
+          <li class="company-list">Автотрейдинг</li>
+          <li class="company-list">ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#" class="btn">Подробнее о нас</a>
+        <a href="#" class="btn section-link">Подробнее о нас</a>
       </section>
       <section class="contact">
         <h2>Контакты</h2>
@@ -156,35 +158,34 @@
           Всякое бывает.</p>
         <a href="#" aria-label="г. Москва, ул. Строителей, 15"><img src="img/map.png"
             alt="г. Москва, ул. Строителей, 15" width="560" height="222"></a>
-        <a href="#" class="btn">Напишите нам</a>
+        <a href="#" class="btn section-link">Напишите нам</a>
       </section>
     </div>
   </main>
   <footer class="footer">
     <div class="footer-content container">
-      <a><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
+      <a class="footer-logo"><img src="img/logo-device.svg" alt="Device" heigh="35" width="160"></a>
       <ul class="action footer-action">
-        <li><a href="#">Войти</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
+        <li class="footer-action-item footer-enter"><a href="#">Войти</a></li>
+        <li class="footer-action-item footer-compare"><a href="#">Сравнить</a></li>
+        <li class="footer-action-item footer-basket"><a href="#">Корзина</a></li>
       </ul>
       <div class="footer-info">
         <address class="address">г. Москва, ул. Строителей, 15</address>
         <ul class="navigation navigation-footer">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
+          <li class="footer-nav-item"><a href="#">Доставка</a></li>
+          <li ><a href="#">Гарантия</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+        <a class="footer-tel" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
       </div>
       <div class="footer-link">
-        <span class="footer-line"></span>
         <ul class="footer-social">
-          <li><a href="#" aria-label="device в facebook"></a></li>
-          <li><a href="#" aria-label="device в vkontakte"></a></li>
-          <li><a href="#" aria-label="device в twitter"></a></li>
+          <li><a href="#" aria-label="device в facebook" class="social-item fb"></a></li>
+          <li><a href="#" aria-label="device в instagram" class="social-item ins"></a></li>
+          <li><a href="#" aria-label="device в twitter" class="social-item tw"></a></li>
         </ul>
-        <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
+        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
             alt="htmlacademy" width="27" heigh="35"></a>
       </div>
     </div>
