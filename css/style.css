@@ -188,13 +188,14 @@ img {
 }
 
 .btn-search {
-  display: none;
+  display: block;
   padding: 15px 20px;
   background-color: transparent;
   border: 2px solid #000000;
   position: absolute;
   left: 355px;
   top: -15px;
+  opacity: 0;
 }
 
 .btn-search:hover {
@@ -214,7 +215,7 @@ img {
 }
 
 .header-search-input:focus + .btn-search {
-  display: block;
+  opacity: 1;
 }
 
 .header-action {
@@ -614,7 +615,7 @@ img {
 }
 
 .radio-filter {
-  margin-bottom: 33px;
+  margin-bottom: 30px;
 }
 
 .legend {
@@ -623,7 +624,88 @@ img {
   width: 201px;
   padding-top: 13px;
   margin-bottom: 19px;
+} 
+
+.radio {
+  display: block;
+  overflow: hidden;
+  font-weight: lighter;
+  font-size: 14px;
+  display: flex;
+  position: relative;
 }
+
+.radio-input {
+  display: none;
+}
+
+.radio-text {
+  display: block;
+  overflow: hidden;
+  padding-left: 39px;
+  margin-top: 2px;
+  z-index: 1;
+}
+
+.radio-box {
+  width: 26px;
+  height: 28px;
+  display: block;
+  float: left;
+  background: url('../img/radio-off.svg') no-repeat;
+  position: absolute;
+  top: 7px;
+}
+
+.radio-box:after {
+  content: '';
+  height: 9px;
+  width: 9px;
+  border-radius: 9px;
+  background: black;
+  margin: auto;
+  display: none;
+}
+
+.radio-input:checked+.radio-box:after {
+  background: url('../img/radio-on.svg');
+  background-repeat: no-repeat;
+}
+
+.checkbox {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+}
+
+.checkbox-input {
+  display: none;
+}
+
+.checkbox-box {
+  width: 26px;
+  height: 23px;
+  display: block;
+  float: left;
+  background: url('../img/checkbox-off.svg') no-repeat;
+  position: absolute;
+  top: 7px;
+}
+
+.checkbox-text {
+  display: block;
+  overflow: hidden;
+  padding-left: 39px;
+}
+
+.checkbox-input:checked+.checkbox-box {
+  background: url('../img/checkbox-on.svg');
+  background-repeat: no-repeat;
+}
+
+/*
 
 .radio-input,
 .checkbox-input {
@@ -650,7 +732,7 @@ img {
 
 .checkbox-input:checked .checkbox {
   background-image: url('../img/checkbox-on.svg');
-}
+} */
 
 .filter label {
   font-size: 14px;
