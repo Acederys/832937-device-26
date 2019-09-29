@@ -213,6 +213,10 @@ img {
   outline: none;
 }
 
+.header-search-input:focus + .btn-search {
+  display: block;
+}
+
 .header-action {
   display: flex;
   justify-content: space-between;
