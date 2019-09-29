@@ -183,7 +183,7 @@ img {
   background-color: transparent;
   border: none;
   padding-left: 40px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   width: 355px;
 }
 
@@ -281,7 +281,20 @@ img {
   margin-right: 240px;
   text-transform: uppercase;
   color: #000000;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  position: relative;
+}
+
+.menu-caption::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  right: 48px;
 }
 
 .service-nav {
