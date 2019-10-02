@@ -53,7 +53,8 @@
       <h1 class="visually-hidden">Device - огромный выбор гаджетов</h1>
       <article class="product-slider-list">
         <img src="img/slider-1.png" alt="палка для селфи" width="384" heigh="486">
-        <h2>Делай селфи, как Бен Стиллер! </h2>
+        <div class="product-slider-item">
+          <h2>Делай селфи, как Бен Стиллер! </h2>
         <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом
           всего 5 килограмм.</p>
         <a href="#" class="btn">Подробнее</a>
@@ -65,9 +66,11 @@
           <dt>Карбон</dt>
           <dd>Материал</dd>
         </dl>
+        </div>
       </article>
       <article class="product-slider-list">
         <img src="img/slider-2.png" alt="фитнес-браслет" width="345" heigh="485">
+        <div class="product-slider-item">
         <h2>Худеем правильно!</h2>
         <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
         <a href="#" class="btn">Подробнее</a>
@@ -75,10 +78,12 @@
           <dt>48 часов</dt>
           <dd>Без подзарядки</dd>
         </dl>
+      </div>
       </article>
       <article class="product-slider-list">
         <img src="img/slider-3.png" alt="квадрокоптер" width="526" heigh="334">
-        <h2>Порхает как бабочка, жалит как пчела!</h2>
+        <div class="product-slider-item">
+          <h2>Порхает как бабочка, жалит как пчела!</h2>
         <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
           камеру.</p>
         <a href="#" class="btn">Подробнее</a>
@@ -88,18 +93,19 @@
           <dt>50 м</dt>
           <dd>Радиус поражения</dd>
         </dl>
+        </div>
       </article>
     </section>
     <section class="device-types-list container">
       <!-- название для секции для семантики -->
       <h2 class="visually-hidden">Товары</h2>
-      <ul>
-        <li><a href="#">Виртуальная реальность</a></li>
-        <li><a href="#">Моноподы для селфи</a></li>
-        <li><a href="#">Экшн-камеры</a></li>
-        <li><a href="#">Фитнес-браслеты</a></li>
-        <li><a href="#">Умные часы</a></li>
-        <li><a href="#">Квадрокоптеры</a></li>
+      <ul class="type-list">
+        <li class="type-item"><a class="type-item-link vertyal" href="#">Виртуальная реальность</a></li>
+        <li class="type-item"><a class="type-item-link monopod" href="#">Моноподы для селфи</a></li>
+        <li class="type-item"><a class="type-item-link camera" href="#">Экшн-камеры</a></li>
+        <li class="type-item"><a class="type-item-link fitnes" href="#">Фитнес-браслеты</a></li>
+        <li class="type-item"><a class="type-item-link oclock" href="#">Умные часы</a></li>
+        <li class="type-item"><a class="type-item-link kvadro" href="#">Квадрокоптеры</a></li>
       </ul>
     </section>
     <section class="service">
@@ -107,23 +113,23 @@
         <!-- название для секции для семантики -->
         <h2 class="visually-hidden">Услуги</h2>
         <ul class="service-menu">
-          <li><a href="#" class="btn">Доставка</a></li>
+          <li><a class="active-tab btn" href="#">Доставка</a></li>
           <li><a href="#" class="btn">Гарантия</a></li>
           <li><a href="#" class="btn">Кредит</a></li>
         </ul>
         <ul class="service-info">
-          <li>
+          <li class="delivery-info">
             <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
               неплохо заработаем, поднимая его на ваш этаж.</p>
           </li>
-          <li>
+          <li class="warranty-info">
             <h3>Гарантия</h3>
             <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
               новый.
               Товар, не дом, конечно же.</p>
           </li>
-          <li>
+          <li class="credit-info">
             <h3>Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
               условия кредита. Выгодные для нашего банка, разумеется.</p>
@@ -134,16 +140,17 @@
     <section class="partner container">
       <!-- название для секции для семантики -->
       <h2 class="visually-hidden">Партнеры</h2>
-      <a href="#"><img src="img/partner-1.png" alt="dji" width="127" heigh="73"></a>
-      <a href="#"><img src="img/partner-2.png" alt="sp gadgets" width="256" heigh="48"></a>
-      <a href="#"><img src="img/partner-3.png" alt="gopro" width="184" heigh="48"></a>
-      <a href="#"><img src="img/partner-4.png" alt="vive" width="200" heigh="56"></a>
+      <a class="partner-1" href="#"><img src="img/partner-1.png" alt="dji" width="127" heigh="73"></a>
+      <a class="partner-2" href="#"><img src="img/partner-2.png" alt="sp gadgets" width="256" heigh="48"></a>
+      <a class="partner-3" href="#"><img src="img/partner-3.png" alt="gopro" width="184" heigh="48"></a>
+      <a class="partner-4" href="#"><img src="img/partner-4.png" alt="vive" width="200" heigh="56"></a>
     </section>
     <div class="main-info container">
       <section class="about">
         <h2>О нас</h2>
         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <p class="about-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными
+        <p class="about-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими
+          транспортными
           компаниями:</p>
         <ul class="company">
           <li class="company-list">Деловые Линии</li>
@@ -174,7 +181,7 @@
         <address class="address">г. Москва, ул. Строителей, 15</address>
         <ul class="navigation navigation-footer">
           <li class="footer-nav-item"><a href="#">Доставка</a></li>
-          <li ><a href="#">Гарантия</a></li>
+          <li><a href="#">Гарантия</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
         <a class="footer-tel" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
@@ -185,8 +192,8 @@
           <li><a href="#" aria-label="device в instagram" class="social-item ins"></a></li>
           <li><a href="#" aria-label="device в twitter" class="social-item tw"></a></li>
         </ul>
-        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img src="img/logo-html.svg"
-            alt="htmlacademy" width="27" heigh="35"></a>
+        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="htmlacademy"><img
+            src="img/logo-html.svg" alt="htmlacademy" width="27" heigh="35"></a>
       </div>
     </div>
   </footer>
@@ -194,23 +201,36 @@
   <section class="modal">
     <!-- название для секции для семантики -->
     <h2 class="visually-hidden">Форма отправки обратной связи</h2>
-    <form method="POST" action="https://echo.htmlacademy.ru/">
-      <label for="name">Ваше имя:</label>
-      <input type="text" placeholder="Имя Фамилия" name="name" id="name">
-      <label for="email">Ваш e-mail:</label><input type="email" placeholder="email@example.com" name="email" id="email">
-      <label for="letter">Текст письма:</label>
-      <textarea placeholder="В свободной форме" name="letter" id="letter">
-      </textarea>
-      <button type="submit">Отправить</button>
+    <form method="POST" action="https://echo.htmlacademy.ru/" class="modal-form">
+      <ul class="modal-input-list">
+        <li class="modal-item">
+          <label for="name">Ваше имя:</label>
+          <input required class="modal-input" type="text" placeholder="Имя Фамилия" name="name" id="name">
+        </li>
+        <li class="modal-item">
+          <label for="email" class="modal-item">Ваш e-mail:</label>
+          <input required class="modal-input" type="email" placeholder="email@example.com" name="email" id="email">
+        </li>
+        <li class="modal-letter">
+          <label for="letter">Текст письма:</label>
+          <textarea class="letter" placeholder="В свободной форме" name="letter" id="letter">
+          </textarea>
+        </li>
+      </ul>
+      <button type="submit" class="btn btn-modal">Отправить</button>
     </form>
-    <button type="button" aria-label="Закрыть">X</button>
+    <button type="button" class="close" aria-label="Закрыть">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
   <!-- modal -->
   <section class="map-modal">
     <!-- название для секции для семантики -->
     <h2 class="visually-hidden">Карта проезда</h2>
     <img src="img/map-2.png" alt="г. Москва, ул. Строителей, 15" width="960" heigh="559">
-    <button type="button" aria-label="Закрыть">X</button>
+    <button type="button" class="close close-map" aria-label="Закрыть">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
 </body>
 

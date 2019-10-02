@@ -66,49 +66,51 @@
           <div class="catalog-form-wrapper">
             <form method="GET" action="https://echo.htmlacademy.ru/" class="filter-form catalog-form">
               <div class="filter-price">
-                <p class="legend">Стоимость</p>
-                <button type="button"></button>
-                <button type="button"></button>
+                <div>
+                  <h3 class="legend caption-price">Стоимость</h3>
+                </div>
+                <button class="price-btn price-min" type="button"></button>
+                <button class="price-btn price-max" type="button"></button>
               </div>
               <fieldset class="box-filter">
                 <legend class="legend">Цвет</legend>
                 <label class="checkbox">
-                    <input type="checkbox" name="color" value="black" class="checkbox-input" checked>
-                    <span class="checkbox-box"></span>
-                    <span class="checkbox-text">Черный</span>
+                  <input type="checkbox" name="color" value="black" class="checkbox-input" checked>
+                  <span class="checkbox-box"></span>
+                  <span class="checkbox-text">Черный</span>
                 </label>
                 <label class="checkbox">
-                    <input type="checkbox" name="color" value="white" class="checkbox-input">
-                    <span class="checkbox-box"></span>
-                    <span class="checkbox-text">Белый</span>
+                  <input type="checkbox" name="color" value="white" class="checkbox-input">
+                  <span class="checkbox-box"></span>
+                  <span class="checkbox-text">Белый</span>
                 </label>
                 <label class="checkbox">
-                    <input type="checkbox" name="color" value="blue" class="checkbox-input" checked>
-                    <span class="checkbox-box"></span>
-                    <span class="checkbox-text">Синий</span>
+                  <input type="checkbox" name="color" value="blue" class="checkbox-input" checked>
+                  <span class="checkbox-box"></span>
+                  <span class="checkbox-text">Синий</span>
                 </label>
                 <label class="checkbox">
-                    <input type="checkbox" name="color" value="red" class="checkbox-input" checked>
-                    <span class="checkbox-box"></span>
-                    <span class="checkbox-text">Красный</span>
+                  <input type="checkbox" name="color" value="red" class="checkbox-input" checked>
+                  <span class="checkbox-box"></span>
+                  <span class="checkbox-text">Красный</span>
                 </label>
                 <label class="checkbox">
-                    <input type="checkbox" name="color" value="pink" class="checkbox-input">
-                    <span class="checkbox-box"></span>
-                    <span class="checkbox-text">Розовый</span>
+                  <input type="checkbox" name="color" value="pink" class="checkbox-input">
+                  <span class="checkbox-box"></span>
+                  <span class="checkbox-text">Розовый</span>
                 </label>
               </fieldset>
               <fieldset class="box-filter radio-filter">
                 <legend class="legend">Bluetooth</legend>
                 <label class="radio">
-                    <input type="radio" name="Bluetooth" value="yes" class="radio-input" checked>
-                    <span class="radio-box"></span>
-                    <span class="radio-text">Есть</span>
+                  <input type="radio" name="Bluetooth" value="yes" class="radio-input" checked>
+                  <span class="radio-box"></span>
+                  <span class="radio-text">Есть</span>
                 </label>
                 <label class="radio">
-                    <input type="radio" name="Bluetooth" value="not" class="radio-input">
-                    <span class="radio-box"></span>
-                    <span class="radio-text">Нет</span>
+                  <input type="radio" name="Bluetooth" value="not" class="radio-input">
+                  <span class="radio-box"></span>
+                  <span class="radio-text">Нет</span>
                 </label>
               </fieldset>
               <button type="submit" class="btn">Показать</button>
@@ -125,9 +127,9 @@
                   <li><a href="#">По типу</a></li>
                   <li><a href="#">По популярности</a></li>
                 </ul>
-                <ul>
-                  <li><a href="#" aria-label="up"></a></li>
-                  <li><a href="#" aria-label="down"></a></li>
+                <ul class="up-down">
+                  <li><a href="#" aria-label="up" class="up"></a></li>
+                  <li><a href="#" aria-label="down" class="down active"></a></li>
                 </ul>
               </div>
             </section>
@@ -181,11 +183,13 @@
                 </div>
               </article>
               <footer class="page catalog-content-footer">
-                <a href="#" class="back-and-forth">Назад</a>
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#" class="back-and-forth">Вперед</a>
+                <a href="#" class="back-and-forth back">Назад</a>
+                <ul class="page-number">
+                  <li><a href="#" class="active">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+                <a href="#" class="back-and-forth forth">Вперед</a>
               </footer>
             </div>
           </div>
