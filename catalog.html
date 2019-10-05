@@ -66,11 +66,17 @@
           <div class="catalog-form-wrapper">
             <form method="GET" action="https://echo.htmlacademy.ru/" class="filter-form catalog-form">
               <div class="filter-price">
-                <div>
+                <div class="caption-price-box">
                   <h3 class="legend caption-price">Стоимость</h3>
                 </div>
                 <button class="price-btn price-min" type="button"></button>
                 <button class="price-btn price-max" type="button"></button>
+                <div class="price-about">
+                  <label class="price-text" for="from">от</label>
+                  <input class="price-input price-input-start" type="text" value="0" id="from">
+                  <label class="price-text price-text-end" for="to">до</label>
+                  <input class="price-input" type="text" id="to" value="5000">
+                </div>
               </div>
               <fieldset class="box-filter">
                 <legend class="legend">Цвет</legend>
@@ -133,7 +139,7 @@
                 </ul>
               </div>
             </section>
-            <div class="product">
+            <section class="product">
               <!-- название для секции для семантики -->
               <h2 class="visually-hidden">Каталог товаров</h2>
               <article class="catalog-list">
@@ -191,7 +197,7 @@
                 </ul>
                 <a href="#" class="back-and-forth forth">Вперед</a>
               </footer>
-            </div>
+            </section>
           </div>
         </div>
       </div>
