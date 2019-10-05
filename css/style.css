@@ -1038,6 +1038,10 @@ img {
   background-repeat: no-repeat;
 }
 
+.checkbox-input:checked:hover+.checkbox-box {
+  opacity: 0.6;
+}
+
 .filter label {
   font-size: 14px;
 }
