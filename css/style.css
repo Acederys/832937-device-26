@@ -997,6 +997,14 @@ img {
   background-repeat: no-repeat;
 }
 
+.radio-input:checked:hover+.radio-box {
+  opacity: 0.6;
+}
+
+.radio-input:hover+.radio-box {
+  opacity: 0.6;
+}
+
 .checkbox {
   display: block;
   overflow: hidden;
