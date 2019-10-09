@@ -369,12 +369,15 @@ img {
 
 .menu-caption:hover~.big-menu {
   display: flex;
-    position: absolute;
-    z-index: 10;
-    height: 129px;
-    background: #f7e296;
-    width: 1044px;
-    top: 25px;
+  position: absolute;
+  z-index: 10;
+  height: 138px;
+  background: #f7e296;
+  width: 1160px;
+  top: 15px;
+  left: -60px;
+  padding-top: 6px;
+  padding-left: 60px;
 }
 
 .big-menu ul {
@@ -447,7 +450,7 @@ img {
   height: 397px;
 }
 
-.product-slider-2, 
+.product-slider-2,
 .product-slider-3,
 .product-slider-1-off {
   display: none;
@@ -1276,7 +1279,7 @@ img {
   color: #000000;
 }
 
-.page-item{
+.page-item {
   opacity: 0.3;
 }
 
@@ -1645,7 +1648,7 @@ img {
 
 .modal-input-required {
   background-color: #f6dada;
-} 
+}
 
 .modal-letter {
   margin-top: 33px;
@@ -1725,6 +1728,7 @@ img {
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: translateX(0);
