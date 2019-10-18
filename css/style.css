@@ -345,10 +345,11 @@ img {
   background-color: transparent;
   border: none;
   padding-left: 40px;
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   width: 355px;
   font-weight: 300;
   line-height: 30px;
+  border-bottom: 2px solid transparent;
 }
 
 .btn-search {
