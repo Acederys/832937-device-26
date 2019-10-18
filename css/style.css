@@ -1878,9 +1878,14 @@ img {
   background-color: #464646;
 }
 
-.footer a:not(.footer-logo),
+.navigation-footer a,
+.footer-tel,
 .address {
   color: #ffffff;
+}
+
+.footer-action a{
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .address,
