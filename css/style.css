@@ -834,7 +834,7 @@ img {
   letter-spacing: 0.15px;
 }
 
-.btn-tab {
+.btn.btn-tab {
   text-align: left;
   padding-left: 19px;
   margin-bottom: 21px;
