@@ -774,14 +774,6 @@ img {
   border-right: 5px solid #000000;
 }
 
-.tab-credit {
-  padding-left: 37px;
-}
-
-.tab-warranty {
-  padding-left: 23px;
-}
-
 .service-menu .btn::after {
   width: 160px;
 }
@@ -838,6 +830,14 @@ img {
   text-align: left;
   padding-left: 19px;
   margin-bottom: 21px;
+}
+
+.btn.tab-credit {
+  padding-left: 37px;
+}
+
+.btn.tab-warranty {
+  padding-left: 23px;
 }
 
 .service-menu .active-tab {
