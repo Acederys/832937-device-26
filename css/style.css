@@ -101,7 +101,7 @@ body {
 }
 
 .product-info {
-  margin-top: 53px;
+  margin-top: 51px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,7 +144,7 @@ body {
   line-height: 48px;
   letter-spacing: 0.47px;
   margin-bottom: 44px;
-  margin-top: 45px;
+  margin-top: 41px;
 }
 
 a {
@@ -358,7 +358,7 @@ img {
   border: 2px solid #000000;
   position: absolute;
   left: 355px;
-  top: -23px;
+  top: -10px;
   opacity: 0;
 }
 
@@ -568,8 +568,8 @@ img {
   justify-content: space-between;
   width: 100%;
   padding-top: 3px;
-  background-image: -o-linear-gradient(top, #f7e296 109px, white 109px, white);
-  background-image: linear-gradient(to bottom, #f7e296 109px, white 109px, white);
+  background-image: -o-linear-gradient(top, #f7e296 112px, white 112px, white);
+  background-image: linear-gradient(to bottom, #f7e296 112px, white 112px, white);
 }
 
 .slider-img-1 {
@@ -599,7 +599,7 @@ img {
 }
 
 .product-slider-list p {
-  margin-bottom: 39px;
+  margin-bottom: 43px;
   width: 482px;
   letter-spacing: 0.15px;
 }
@@ -781,7 +781,6 @@ img {
   width: 760px;
   padding-left: 0;
   padding-top: 74px;
-  letter-spacing: 1px;
 }
 
 .service-info li {
@@ -821,8 +820,9 @@ img {
 }
 
 .service-info p {
-  margin-top: 31px;
-  width: 475px;
+  margin-top: 28px;
+  width: 457px;
+  letter-spacing: 0.15px;
 }
 
 .service-menu button {
@@ -881,7 +881,7 @@ img {
 }
 
 .catalog-header {
-  margin-top: 32px;
+  margin-top: 35px;
   margin-bottom: 41px;
   padding-left: 59px;
 }
@@ -889,11 +889,12 @@ img {
 .catalog-header h1 {
   margin: 0;
   width: 100%;
-  letter-spacing: 1px;
+  letter-spacing: 0.47px;
+  line-height: 48px;
 }
 
 .catalog-header-navigation {
-  margin-top: 14px;
+  margin-top: 19px;
 }
 
 .catalog-header-navigation a {
@@ -1023,7 +1024,8 @@ img {
 }
 
 .company,
-.filter label {
+.checkbox,
+.radio {
   line-height: 40px;
 }
 
@@ -1257,10 +1259,11 @@ img {
   padding-bottom: 34px;
   background-image: -o-linear-gradient(left, #91c92f 119px, #dbdbdb 10px, #dbdbdb);
   background-image: linear-gradient(to right, #91c92f 119px, #dbdbdb 10px, #dbdbdb);
+  margin-bottom: 6px;
 }
 
 .legend.caption-price {
-  padding-top: 13px;
+  padding-top: 10px;
 }
 
 .caption-price {
@@ -1281,14 +1284,14 @@ img {
 
 .price-min {
   position: absolute;
-  top: 63px;
+  top: 60px;
   left: -4px;
 }
 
 .price-max {
   position: absolute;
   left: 110px;
-  top: 63px;
+  top: 60px;
 }
 
 .price-about {
@@ -1335,10 +1338,12 @@ img {
   margin-right: 0;
   margin-bottom: 29px;
   border: 0 none;
+  margin-top: 33px;
 }
 
 .radio-filter {
   margin-bottom: 26px;
+  margin-top: 1px;
 }
 
 .legend {
@@ -1346,7 +1351,7 @@ img {
   border-top: 2px solid #000000;
   width: 201px;
   padding-top: 15px;
-  margin-bottom: 19px;
+  margin-bottom: 17px;
 }
 
 .radio {
@@ -1400,7 +1405,6 @@ img {
   display: block;
   overflow: hidden;
   font-size: 14px;
-  line-height: 16px;
   position: relative;
   width: 100%;
 }
@@ -1504,6 +1508,7 @@ img {
   margin-left: 74px;
   padding-left: 1px;
   padding-right: 4px;
+  margin-bottom: 75px;
 }
 
 .page a {
@@ -1668,6 +1673,8 @@ img {
 .item-info p {
   font-size: 16px;
   line-height: 24px;
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-weight: 300;
 }
 
 .catalog-list:hover .item-add {
