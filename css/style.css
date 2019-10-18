@@ -768,10 +768,18 @@ img {
 
 .service-menu {
   width: 283px;
-  padding-top: 80px;
+  padding-top: 76px;
   padding-left: 0;
   padding-bottom: 47px;
   border-right: 5px solid #000000;
+}
+
+.tab-credit {
+  padding-left: 37px;
+}
+
+.tab-warranty {
+  padding-left: 23px;
 }
 
 .service-menu .btn::after {
@@ -826,10 +834,10 @@ img {
   letter-spacing: 0.15px;
 }
 
-.service-menu button {
+.btn-tab {
   text-align: left;
   padding-left: 19px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .service-menu .active-tab {
