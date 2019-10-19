@@ -10,10 +10,10 @@ var inputName = popupLogin.querySelector('.input-name');
 var email = popupLogin.querySelector('.input-email');
 
 var isStorageSupport = true;
-var storage = "";
+var storage = '';
 
 try {
-  storage = localStorage.getItem("inputName");
+  storage = localStorage.getItem('inputName');
 } catch (err) {
   isStorageSupport = false;
 }
@@ -47,15 +47,15 @@ closeMap.addEventListener('click', function (evt) {
   popupMap.classList.remove('map-modal-on');
 });
 
-form.addEventListener("submit", function (evt) {
+form.addEventListener('submit', function (evt) {
   if (!inputName.value || !email.value) {
     evt.preventDefault();
-    popupLogin.classList.remove("modal-error");
+    popupLogin.classList.remove('modal-error');
     popupLogin.offsetWidth = popupLogin.offsetWidth;
-    popupLogin.classList.add("modal-error");
+    popupLogin.classList.add('modal-error');
   } else {
     if (isStorageSupport) {
-      localStorage.setItem("inputName", inputName.value);
+      localStorage.setItem('inputName', inputName.value);
     }
   }
 });
