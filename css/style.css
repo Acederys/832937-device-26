@@ -350,6 +350,8 @@ img {
   font-weight: 300;
   line-height: 30px;
   border-bottom: 2px solid transparent;
+  min-height: 30px;
+  box-sizing: content-box;
 }
 
 .btn-search {
