@@ -8,7 +8,7 @@
   <meta name='description' content='Огромный выбор гаджетов, доставка в отдаленные точки России'>
   <title>HTML Academy: Девайс</title>
   <link href='css/normalize.css' rel='stylesheet'>
-  <link href='css/style-mini.css' rel='stylesheet'>
+  <link href='css/style.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <a class='logo'><img src='img/logo-device.svg' alt='Device' height='35' width='160'></a>
     <form class='header-search'>
       <span class='icon-search'></span>
-      <input class='header-search-input' name='site-search' type='search' placeholder='Поиск по сайту'>
+      <input class='header-search-input' name='site-search' type='search' placeholder='Поиск по сайту' aria-label='input-search'>
       <button class='btn-search' type='submit'>Найти</button>
     </form>
     <ul class='action header-action header-action-box'>
@@ -195,10 +195,10 @@
     <section class='partner container'>
       <!-- название для секции для семантики -->
       <h2 class='visually-hidden'>Партнеры</h2>
-      <a class='partner-1' href='#'><img src='img/partner-1.png' alt='dji' width='127' height='73'></a>
-      <a class='partner-2' href='#'><img src='img/partner-2.png' alt='sp gadgets' width='256' height='48'></a>
-      <a class='partner-3' href='#'><img src='img/partner-3.png' alt='gopro' width='184' height='48'></a>
-      <a class='partner-4' href='#'><img src='img/partner-4.png' alt='vive' width='200' height='56'></a>
+      <a class='partner-1' href='#' aria-label='link-partner-dji'><img src='img/partner-dji.png' alt='dji' width='127' height='73'></a>
+      <a class='partner-2' href='#' aria-label='link-partner-sp-gadgets'><img src='img/partner-sp.png' alt='sp gadgets' width='256' height='48'></a>
+      <a class='partner-3' href='#' aria-label='link-partner-gopro'><img src='img/partner-gp.png' alt='gopro' width='184' height='48'></a>
+      <a class='partner-4' href='#' aria-label='link-partner-vive'><img src='img/partner-vive.png' alt='vive' width='200' height='56'></a>
     </section>
     <div class='main-info container'>
       <section class='about'>
@@ -220,7 +220,7 @@
           Всякое бывает.</p>
         <a class='link-map' href='https://yandex.ru/maps/-/CGsTFXOG' aria-label='г. Москва, ул. Строителей, 15'><img
             src='img/map.png' alt='г. Москва, ул. Строителей, 15' width='560' height='222'></a>
-        <a href='#' class='btn section-link link-popap'>Напишите нам</a>
+        <a href='modal.html' class='btn section-link link-popap'>Напишите нам</a>
       </section>
     </div>
   </main>
@@ -254,7 +254,7 @@
           <li><a href='#'>Гарантия</a></li>
           <li><a href='#'>Контакты</a></li>
         </ul>
-        <a class='footer-tel' href='tel:+74954959595'>Тел.: +7 (495) 495-95-95</a>
+        <a class='footer-tel' href='tel:+74954959595' aria-label='phone-number:+74954959595'>Тел.: +7 (495) 495-95-95</a>
       </div>
       <div class='footer-link'>
         <ul class='footer-social'>
@@ -298,7 +298,7 @@
     <!-- название для секции для семантики -->
     <h2 class='visually-hidden'>Карта проезда</h2>
     <iframe src='https://yandex.ru/map-widget/v1/-/CGsTFXOG' width='960' height='559' allowfullscreen></iframe>
-    <!-- <img src='img/map-2.png' alt='г. Москва, ул. Строителей, 15' width='960' height='559'> -->
+    <!-- <img src='img/map-big.png' alt='г. Москва, ул. Строителей, 15' width='960' height='559'> -->
     <button type='button' class='close close-map' aria-label='Закрыть'>
       <span class='visually-hidden'>Закрыть</span>
     </button>

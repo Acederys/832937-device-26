@@ -466,7 +466,6 @@ img {
   height: 20px;
   background-image: url(../img/plus.svg);
   background-repeat: no-repeat;
-  display: inline-block;
   position: absolute;
   top: 2px;
   right: 48px;
@@ -502,7 +501,7 @@ img {
   display: flex;
   position: absolute;
   z-index: 10;
-  height: 165px;
+  min-height: 165px;
   background: #f7e296;
   width: 1160px;
   top: 20px;
@@ -552,9 +551,9 @@ img {
 }
 
 .service {
-  margin-top: 55px;
-  background-image: -o-linear-gradient(#ffffff 114px, #e5e5e5 115px, #e5e5e5);
-  background-image: linear-gradient(#ffffff 114px, #e5e5e5 115px, #e5e5e5);
+  margin-top: 49px;
+  background-image: -o-linear-gradient(#ffffff 109px, #e5e5e5 109px, #e5e5e5);
+  background-image: linear-gradient(#ffffff 109px, #e5e5e5 109px, #e5e5e5);
   padding-bottom: 57px;
 }
 
@@ -609,7 +608,7 @@ img {
 
 .product-slider-item {
   width: 560px;
-  padding-top: 36px;
+  padding-top: 38px;
 }
 
 .product-slider-item .slider-btn {
@@ -691,6 +690,7 @@ img {
 
 .type-item {
   width: 160px;
+  margin-bottom: 10px;
 }
 
 .type-item-link {
@@ -783,7 +783,7 @@ img {
 .service-info {
   width: 760px;
   padding-left: 0;
-  padding-top: 74px;
+  padding-top: 68px;
 }
 
 .service-info li {
@@ -797,7 +797,6 @@ img {
 
 .service-info li::after {
   content: '';
-  display: inline-block;
   position: absolute;
   background-repeat: no-repeat;
   width: 171px;
@@ -820,10 +819,11 @@ img {
 
 .service-info h3 {
   margin: 0;
+  letter-spacing: 0.47px;
 }
 
 .service-info p {
-  margin-top: 28px;
+  margin-top: 33px;
   width: 457px;
   letter-spacing: 0.15px;
 }
@@ -916,7 +916,6 @@ img {
 
 .link-next::after {
   content: '';
-  display: inline-block;
   width: 10px;
   height: 10px;
   background-image: url(../img/nav-arrow.svg);
@@ -961,19 +960,23 @@ img {
 }
 
 .partner-1:hover {
-  background-image: url(../img/partner-hover-1.png);
+  background-image: url(../img/partner-hover-dji.png);
+  background-repeat: no-repeat;
 }
 
 .partner-2:hover {
-  background-image: url(../img/partner-hover-2.png);
+  background-image: url(../img/partner-hover-sp.png);
+  background-repeat: no-repeat;
 }
 
 .partner-3:hover {
-  background-image: url(../img/partner-hover-3.png);
+  background-image: url(../img/partner-hover-gp.png);
+  background-repeat: no-repeat;
 }
 
 .partner-4:hover {
-  background-image: url(../img/partner-hover-4.png);
+  background-image: url(../img/partner-hover-vive.png);
+  background-repeat: no-repeat;
 }
 
 .about::before,
@@ -990,7 +993,7 @@ img {
 .about {
   width: 472px;
   margin-right: 127px;
-  padding-bottom: 82px;
+  padding-bottom: 80px;
   position: relative;
 }
 
@@ -1134,7 +1137,7 @@ img {
 
 .btn.section-link {
   width: 260px;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .btn.section-link:active {
@@ -1291,6 +1294,12 @@ img {
   width: 20px;
   height: 22px;
   border-radius: 50%;
+}
+
+.price-btn:active {
+  width: 22px;
+  height: 24px;
+  background-size: 100%;
 }
 
 .price-min {
@@ -1475,15 +1484,17 @@ img {
   height: 10px;
   background-image: url(../img/icon-up-dir.svg);
   background-repeat: no-repeat;
+  vertical-align: baseline;
 }
 
 .down {
   display: inline-block;
-  width: 10px;
+  width: 11px;
   height: 10px;
   background-image: url(../img/icon-down-dir.svg);
   background-repeat: no-repeat;
   margin-left: 19px;
+  vertical-align: baseline;
 }
 
 .btn,
@@ -1542,7 +1553,6 @@ img {
 .back-and-forth {
   text-transform: uppercase;
   letter-spacing: 4px;
-  display: inline-block;
   width: 125px;
   text-align: center;
   padding-bottom: 22px;
@@ -1676,7 +1686,6 @@ img {
 .item-info h3 {
   margin: 0;
   margin-top: 29px;
-  display: inline-block;
   width: 257px;
 }
 
