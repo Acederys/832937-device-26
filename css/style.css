@@ -534,7 +534,6 @@ img {
 .product-slider,
 .device-types-list,
 .service-box,
-.partner,
 .main-info,
 .catalog-header,
 .filter-box {
@@ -871,20 +870,25 @@ img {
 }
 
 .partner {
-  margin-top: 108px;
+  margin-top: 103px;
   margin-bottom: 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  max-width: 1160px;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .partner a {
-  margin-left: 24px;
+  min-width: 260px;
+  text-align: center;
+  margin-right: 36px;
 }
 
 .partner-2 {
@@ -957,26 +961,36 @@ img {
   margin-bottom: 25px;
   margin-top: 21px;
   position: relative;
+  min-width: 360px;;
+}
+
+.img-box {
+  width: 360px;
+  height: 380px;
 }
 
 .partner-1:hover {
   background-image: url(../img/partner-hover-dji.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .partner-2:hover {
   background-image: url(../img/partner-hover-sp.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .partner-3:hover {
   background-image: url(../img/partner-hover-gp.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .partner-4:hover {
   background-image: url(../img/partner-hover-vive.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about::before,
@@ -1211,11 +1225,12 @@ img {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .catalog-content-header h3 {
   letter-spacing: 3.2px;
+  margin-right: 43px;
 }
 
 .sorter-type {
@@ -1223,15 +1238,19 @@ img {
   display: -ms-flexbox;
   display: flex;
   padding-left: 0;
-  width: 300px;
-  margin-right: 192px;
+  min-width: 500px;
+  margin-right: 31px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding-left: 11px;
+}
+
+.sorter-type li {
+  margin-right: 29px;
 }
 
 .sorter-type a:not(.active):active,
@@ -1525,7 +1544,7 @@ img {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: start;
   width: 760px;
   margin-left: 74px;
   padding-left: 1px;
@@ -1576,7 +1595,7 @@ img {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  width: 160px;
+  min-width: 510px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1681,6 +1700,7 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 360px;
 }
 
 .item-info h3 {
@@ -1765,6 +1785,7 @@ img {
 
 .address {
   font-style: normal;
+  max-width: 205px;
 }
 
 .footer-action {
@@ -1823,6 +1844,7 @@ img {
 .footer-tel {
   margin-left: 47px;
   line-height: 30px;
+  max-width: 165px;
 }
 
 .footer-link {
