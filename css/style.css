@@ -49,6 +49,14 @@ body {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none
+}
+
+img {
+  max-width: 100%;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -145,14 +153,6 @@ body {
   letter-spacing: 0.47px;
   margin-bottom: 44px;
   margin-top: 41px;
-}
-
-a {
-  text-decoration: none
-}
-
-img {
-  max-width: 100%;
 }
 
 .action,
@@ -961,10 +961,11 @@ img {
   margin-bottom: 25px;
   margin-top: 21px;
   position: relative;
-  min-width: 360px;;
+  min-width: 360px;
+  ;
 }
 
-.img-box {
+.catalog-img-box {
   width: 360px;
   height: 380px;
 }
@@ -1165,6 +1166,10 @@ img {
   flex-grow: 1;
 }
 
+.catalog-left-side-wrapper {
+  background-color: #efefef;
+}
+
 .catalog-form-header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1189,10 +1194,8 @@ img {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-color: #efefef;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  min-height: 1217px;
 }
 
 .catalog-form {
@@ -1440,6 +1443,17 @@ img {
   opacity: 0.6;
 }
 
+.radio:hover {
+  opacity: 0.6;
+}
+
+.checkbox-input:disabled + .checkbox-box,
+.checkbox-input:disabled + .checkbox-text,
+.radio-input:disabled + .radio-box,
+.radio-input:disabled + .radio-text  {
+  opacity: 0.3;
+}
+
 .checkbox {
   display: block;
   overflow: hidden;
@@ -1474,6 +1488,10 @@ img {
 }
 
 .checkbox-input:checked:hover+.checkbox-box {
+  opacity: 0.6;
+}
+
+.checkbox:hover {
   opacity: 0.6;
 }
 
@@ -1925,7 +1943,7 @@ img {
   color: #ffffff;
 }
 
-.footer-action a{
+.footer-action a {
   color: rgba(255, 255, 255, 0.7);
 }
 

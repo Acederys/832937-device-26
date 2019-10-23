@@ -84,27 +84,27 @@
               </div>
               <fieldset class='box-filter'>
                 <legend class='legend'>Цвет</legend>
-                <label class='checkbox'>
+                <label class='checkbox' tabindex="0">
                   <input type='checkbox' name='color' value='black' class='checkbox-input' checked>
                   <span class='checkbox-box'></span>
                   <span class='checkbox-text'>Черный</span>
                 </label>
-                <label class='checkbox'>
+                <label class='checkbox' tabindex="0">
                   <input type='checkbox' name='color' value='white' class='checkbox-input'>
                   <span class='checkbox-box'></span>
                   <span class='checkbox-text'>Белый</span>
                 </label>
-                <label class='checkbox'>
+                <label class='checkbox' tabindex="0">
                   <input type='checkbox' name='color' value='blue' class='checkbox-input' checked>
                   <span class='checkbox-box'></span>
                   <span class='checkbox-text'>Синий</span>
                 </label>
-                <label class='checkbox'>
+                <label class='checkbox' tabindex="0">
                   <input type='checkbox' name='color' value='red' class='checkbox-input' checked>
                   <span class='checkbox-box'></span>
                   <span class='checkbox-text'>Красный</span>
                 </label>
-                <label class='checkbox'>
+                <label class='checkbox' tabindex="0">
                   <input type='checkbox' name='color' value='pink' class='checkbox-input'>
                   <span class='checkbox-box'></span>
                   <span class='checkbox-text'>Розовый</span>
@@ -112,12 +112,12 @@
               </fieldset>
               <fieldset class='box-filter radio-filter'>
                 <legend class='legend'>Bluetooth</legend>
-                <label class='radio'>
+                <label class='radio' tabindex="0">
                   <input type='radio' name='Bluetooth' value='yes' class='radio-input' checked>
                   <span class='radio-box'></span>
                   <span class='radio-text'>Есть</span>
                 </label>
-                <label class='radio'>
+                <label class='radio' tabindex="0">
                   <input type='radio' name='Bluetooth' value='not' class='radio-input'>
                   <span class='radio-box'></span>
                   <span class='radio-text'>Нет</span>
@@ -136,7 +136,7 @@
                   <li><a href='#' class='active'>По цене</a></li>
                   <li><a href='#'>По типу</a></li>
                   <li><a href='#'>По популярности</a></li>
-                 
+
                 </ul>
                 <ul class='up-down'>
                   <li><a href='#' aria-label='up' class='up' aria-label='up-link'></a></li>
@@ -147,22 +147,13 @@
             <section class='product'>
               <!-- название для секции для семантики -->
               <h2 class='visually-hidden'>Каталог товаров</h2>
-
               <article class='catalog-list list-1'>
-                  <img class='product-img' src='img/item-amateur.jpg' alt='Любительская селфи-палка' width='360' height='380'>
-                 <div class='item-info'>
-                    <h3><a class='caption-item' href='#'>Любительская селфи-палка</a></h3>
-                    <p>500 руб.</p>
-                  </div>
-                  <div class='item-add'>
-                    <a href='#' class='btn'>В корзину</a>
-                    <a href='#' class='comparison'>Добавить к сравнению</a>
-                  </div>
-                </article>
+                <div class='catalog-img-box'>
 
-              <article class='catalog-list list-1'>
-                <img class='product-img' src='img/item-amateur.jpg' alt='Любительская селфи-палка' width='360' height='380'>
-               <div class='item-info'>
+                  <img class='product-img' src='img/item-amateur.jpg' alt='Любительская селфи-палка' width='360'
+                    height='380'>
+                </div>
+                <div class='item-info'>
                   <h3><a class='caption-item' href='#'>Любительская селфи-палка</a></h3>
                   <p>500 руб.</p>
                 </div>
@@ -172,8 +163,11 @@
                 </div>
               </article>
               <article class='catalog-list list-2'>
-                <img class='product-img' src='img/item-professional.jpg' alt='Профессиональная селфи-палка' width='360'
-                  height='380'>
+                <div class='catalog-img-box'>
+
+                  <img class='product-img' src='img/item-professional.jpg' alt='Профессиональная селфи-палка'
+                    width='360' height='380'>
+                </div>
                 <div class='item-info'>
                   <h3><a class='caption-item' href='#'>Профессиональная<br> селфи-палка </a></h3>
                   <p>1 500 руб.</p>
@@ -184,7 +178,10 @@
                 </div>
               </article>
               <article class='catalog-list list-3'>
-                <img class='product-img' src='img/item-unsinkable.jpg' alt='Непотопляемая селфи-палка' width='360' height='380'>
+                <div class='catalog-img-box'>
+                  <img class='product-img' src='img/item-unsinkable.jpg' alt='Непотопляемая селфи-палка' width='360'
+                    height='380'>
+                </div>
                 <div class='item-info'>
                   <h3><a class='caption-item' href='#'>Непотопляемая селфи-палка</a></h3>
                   <p>2 500 руб.</p>
@@ -195,8 +192,11 @@
                 </div>
               </article>
               <article class='catalog-list list-4'>
-                <img class='product-img' src='img/item-do.jpg' alt='Селфи-палка «Следуй за мной»' width='360'
-                  height='380'>
+                <div class='catalog-img-box'>
+
+                  <img class='product-img' src='img/item-do.jpg' alt='Селфи-палка «Следуй за мной»' width='360'
+                    height='380'>
+                </div>
                 <div class='item-info'>
                   <h3><a class='caption-item' href='#'>Селфи-палка «Следуй за мной»</a></h3>
                   <p>4 900 руб.</p>
