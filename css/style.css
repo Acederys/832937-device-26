@@ -510,6 +510,21 @@ img {
   padding-left: 60px;
 }
 
+.navigation-header-box:focus-within>.big-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  min-height: 165px;
+  background: #f7e296;
+  width: 1160px;
+  top: 20px;
+  left: -60px;
+  padding-top: 34px;
+  padding-left: 60px;
+}
+
 .big-menu ul {
   width: 200px;
 }
