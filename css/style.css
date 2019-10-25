@@ -745,32 +745,32 @@ img {
 }
 
 .vertyal:before {
-  background-image: url(../img/popular-1.svg);
+  background-image: url(../img/vertual.svg);
   background-position: center;
 }
 
 .monopod:before {
-  background-image: url(../img/popular-2.svg);
+  background-image: url(../img/monopod.svg);
   background-position: center bottom;
 }
 
 .camera:before {
-  background-image: url(../img/popular-3.svg);
+  background-image: url(../img/camera.svg);
   background-position: center;
 }
 
 .fitnes:before {
-  background-image: url(../img/popular-4.svg);
+  background-image: url(../img/fitnes.svg);
   background-position: center;
 }
 
 .oclock:before {
-  background-image: url(../img/popular-5.svg);
+  background-image: url(../img/oclock.svg);
   background-position: center;
 }
 
 .kvadro:before {
-  background-image: url(../img/popular-6.svg);
+  background-image: url(../img/kvadro.svg);
   background-position: center;
 }
 
